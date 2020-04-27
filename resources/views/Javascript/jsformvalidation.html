@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <script>
+        function myFunction(e) {
+            text_box = document.getElementsByClassName('inputs');
+            span_obj = document.getElementsByClassName('message');
+            radio_lbls = document.getElementsByClassName('gender_lbl');
+            radio_btns = document.getElementsByName('gender');
+            check_hob = document.getElementsByClassName('hobies');
+            check_lbls = document.getElementsByClassName('hob_label');
+             if (text_box[0].value == '') {
+                text_box[0].style.borderColor = 'red';
+                span_obj[0].innerHTML = 'Please enter your First Name';
+                span_obj[0].style.color = 'red';
+             }
+             
+             if (text_box[1].value == '') {
+                text_box[1].style.borderColor = 'red';
+                span_obj[1].innerHTML = 'Please enter your Sur name';
+                span_obj[1].style.color = 'red';
+                
+             }
+            
+         if (radio_btns[0].checked == false && radio_btns[1].checked == false) {
+                radio_lbls[0].style.color = 'red';
+                radio_lbls[1].style.color = 'red';
+                
+             }
+             if (check_hob[0].checked == false && check_hob[1].checked == false && check_hob[2].checked == false) {
+                check_lbls[0].style.color = 'red';
+               check_lbls[1].style.color = 'red';
+               check_lbls[2].style.color = 'red';
+                
+             }
+                return false;
+            }
+        
+    </script>
+</head>
+
+<body>
+    <form>
+    <input type="text" id="name" placeholder="First Name" class="inputs">
+    <span class = "message"></span><br><br>
+    <input type="text" id="name" placeholder="Sur Name" class="inputs">
+    <span class = "message"></span><br><br>
+    <label class = "gender_lbl">Male</label>
+    <input type="radio" name ="gender">
+    <label class = "gender_lbl">Female</label>
+    <input type="radio" name ="gender">
+    <br><br>
+    <select id = "course">
+        <option>Select your course</option>option>
+        <option value = "php">PHP</option>
+        <option value = "python">Python</option>
+        <option value = "java">Java</option>
+    </select>
+    <br><br>
+    <input type="checkbox" name="hob1" class="hobies">
+    <label class = "hob_label">Coding</label>
+    <input type="checkbox" name="hob2" class="hobies">
+    <label class = "hob_label">Riding</label>
+    <input type="checkbox" name="hob3" class="hobies">
+    <label class = "hob_label">Reading</label>
+    <br><br>
+    <input type="submit" value="Submit" onclick="return myFunction(this)"><br><br>
+</form>
+    <div></div>
+
+</body>
+
+</html>
