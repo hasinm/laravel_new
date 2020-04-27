@@ -85,73 +85,73 @@ Route::get('/jquery/assignment', function () {
     return view('jqueryassignment');
 });
 Route::get('/bootstrap/as3', function () {
-    return view('bootstrap/Assignments/Assignment3');
+    return view('Bootstrap/Assignments/Assignment3');
 });
 Route::get('/bootstrap/as4', function () {
-    return view('bootstrap/Assignments/Assignment4');
+    return view('Bootstrap/Assignments/Assignment4');
 });
 Route::get('/bootstrap/as5', function () {
-    return view('bootstrap/Assignments/Assignment5');
+    return view('Bootstrap/Assignments/Assignment5');
 });
 Route::get('/bootstrap/as6', function () {
-    return view('bootstrap/Assignments/Assignment6');
+    return view('Bootstrap/Assignments/Assignment6');
 });
 Route::get('/bootstrap/as7', function () {
-    return view('bootstrap/Assignments/Assignment7');
+    return view('Bootstrap/Assignments/Assignment7');
 });
 Route::get('/bootstrap/as8', function () {
-    return view('bootstrap/Assignments/Assignment8');
+    return view('Bootstrap/Assignments/Assignment8');
 });
 Route::get('/bootstrap/as12', function () {
-    return view('bootstrap/Assignments/Assignment12');
+    return view('Bootstrap/Assignments/Assignment12');
 });
 Route::get('/bootstrap/as19', function () {
-    return view('bootstrap/Assignments/Assignment19');
+    return view('Bootstrap/Assignments/Assignment19');
 });
 Route::get('/bootstrap/as14', function () {
-    return view('bootstrap/Assignments/Assignment14');
+    return view('Bootstrap/Assignments/Assignment14');
 });
 Route::get('/bootstrap/as15', function () {
-    return view('bootstrap/Assignments/Assignment15');
+    return view('Bootstrap/Assignments/Assignment15');
 });
 Route::get('/bootstrap/as16', function () {
-    return view('bootstrap/Assignments/Assignment16');
+    return view('Bootstrap/Assignments/Assignment16');
 });
 Route::get('/bootstrap/as19', function () {
-    return view('bootstrap/Assignments/Assignment19');
+    return view('Bootstrap/Assignments/Assignment19');
 });
 Route::get('/bootstrap/as201', function () {
-    return view('bootstrap/Assignments/Assignment201');
+    return view('Bootstrap/Assignments/Assignment201');
 });
 Route::get('/bootstrap/as202', function () {
-    return view('bootstrap/Assignments/Assignment202');
+    return view('Bootstrap/Assignments/Assignment202');
 });
 Route::get('/bootstrap/as203', function () {
-    return view('bootstrap/Assignments/Assignment203');
+    return view('Bootstrap/Assignments/Assignment203');
 });
 Route::get('/bootstrap/as21', function () {
-    return view('bootstrap/Assignments/Assignment21');
+    return view('Bootstrap/Assignments/Assignment21');
 });
 Route::get('/bootstrap/as22', function () {
-    return view('bootstrap/Assignments/Assignment22');
+    return view('Bootstrap/Assignments/Assignment22');
 });
 Route::get('/bootstrap/as27', function () {
-    return view('bootstrap/Assignments/Assignment27');
+    return view('Bootstrap/Assignments/Assignment27');
 });
 Route::get('/bootstrap/as29', function () {
-    return view('bootstrap/Assignments/Assignment29');
+    return view('Bootstrap/Assignments/Assignment29');
 });
 Route::get('/bootstrap/as38', function () {
-    return view('bootstrap/Assignments/Assignment38');
+    return view('Bootstrap/Assignments/Assignment38');
 });
 Route::get('/bootstrap/as39', function () {
-    return view('bootstrap/Assignments/Assignment39');
+    return view('Bootstrap/Assignments/Assignment39');
 });
 Route::get('/bootstrap/as40', function () {
-    return view('bootstrap/Assignments/Assignment40');
+    return view('Bootstrap/Assignments/Assignment40');
 });
 Route::get('/bootstrap/as51', function () {
-    return view('bootstrap/Assignments/Assignment51');
+    return view('Bootstrap/Assignments/Assignment51');
 });
 Route::get('/js/as1/', function () {
     return view('Javascript/assignments/jsassignment1');
